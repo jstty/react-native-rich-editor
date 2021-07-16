@@ -389,12 +389,12 @@ function createHTML(options = {}) {
             },
 
             init: function (){
-                if (${useContainer}){
+                // if (${useContainer}){
                     // setInterval(Actions.UPDATE_HEIGHT, 150);
-                    Actions.UPDATE_HEIGHT();
-                } else {
+                //    Actions.UPDATE_HEIGHT();
+                // } else {
                     body.style.height = docEle.clientHeight + 'px';
-                }
+                //}
             },
 
             UPDATE_HEIGHT: function() {
